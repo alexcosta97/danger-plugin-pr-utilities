@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
+    "allowJs": false,
+    "pretty": true,
+    "strictNullChecks": true,
+    "declaration": true
+  },
+  "lib": ["es2017"],
+  "include": ["src", "jest.config.js", ".eslintrc.js", ".prettierrc.js"],
+  "exclude": ["dangerfile.ts", "node_modules", "dist"]
+}
