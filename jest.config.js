@@ -19,7 +19,7 @@ module.exports = {
   testRegex: '(.spec)\\.(ts|tsx)$',
   testPathIgnorePatterns: ['\\.snap$', '<rootDir>/node_modules/'],
   transform: {
-    '.(ts|tsx)': '<rootDir>/node_modules/ts-jest/preprocessor.js'
+    '.(ts|tsx)': 'ts-jest'
   },
   watchPathIgnorePatterns: ['globalConfig'],
   reporters: ['default', '@wopian/jest-reporter-github-annotations']
