@@ -10,7 +10,8 @@
   "scripts": {
     "commit": "cz",
     "lint": "eslint --ext .ts,.cjs,.js --fix ./ && prettier . --write --check",
-    "lint:ci": "eslint --ext .ts,.cjs,.js ./ && prettier . --write --check"
+    "lint:ci": "eslint --ext .ts,.cjs,.js ./ && prettier . --write --check",
+    "test": "jest --coverage --passWithNoTests --maxWorkers=2"
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
@@ -34,10 +35,5 @@
     "semantic-release": "^21.0.5",
     "ts-jest": "^29.1.0",
     "typescript": "^5.1.5"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
