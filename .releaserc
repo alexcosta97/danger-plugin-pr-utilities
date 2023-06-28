@@ -53,8 +53,9 @@
       "@semantic-release/github",
       {
         "assets": [
-          { "path": "dist/**", "label": "NPM Package" }
-        ]
+          "dist/**/*.{js,ts}", "CHANGELOG.md", "package.json", "LICENSE"
+        ],
+        "labels": "NPM Package"
       }
     ],
     [
