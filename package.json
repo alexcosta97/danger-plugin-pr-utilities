@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "commit": "cz",
-    "lint": "eslint --ext .ts,.cjs,.js --fix ./ && prettier . --write --check",
+    "lint": "eslint --ext .ts,.cjs,.js --fix . && prettier . --write --check",
     "lint:ci": "eslint --ext .ts,.cjs,.js ./ && prettier . --write --check",
     "semantic-release": "semantic-release",
     "test": "jest --coverage --passWithNoTests --maxWorkers=2",

@@ -9,7 +9,14 @@
     "strictNullChecks": true,
     "declaration": true
   },
-  "lib": ["es2017"],
-  "include": ["src", "jest.config.js", ".eslintrc.js", ".prettierrc.js"],
-  "exclude": ["dangerfile.ts", "node_modules", "dist"]
+  "include": ["src"],
+  "exclude": [
+    "dangerfile.ts",
+    "node_modules",
+    "dist",
+    "coverage",
+    "jest.config.js",
+    ".eslintrc.js",
+    ".prettierrc.js"
+  ]
 }
