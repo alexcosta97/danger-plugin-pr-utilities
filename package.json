@@ -3,7 +3,10 @@
   "version": "0.0.0-development",
   "description": "A Danger plugin containing various utilities for PR validation",
   "main": "dist/index.js",
-  "repository": "https://github.com/alexcosta97/danger-plugin-pr-utilities",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcosta97/danger-plugin-pr-utilities.git"
+  },
   "author": "Alexandre Costa <alex@alexcosta.dev> (https://alexcosta.dev/)",
   "license": "MIT",
   "private": false,
