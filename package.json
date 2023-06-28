@@ -1,6 +1,6 @@
 {
   "name": "danger-plugin-pr-utilities",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "A Danger plugin containing various utilities for PR validation",
   "main": "dist/index.js",
   "repository": "https://github.com/alexcosta97/danger-plugin-pr-utilities",
@@ -8,10 +8,13 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "build": "tsc",
     "commit": "cz",
     "lint": "eslint --ext .ts,.cjs,.js --fix ./ && prettier . --write --check",
     "lint:ci": "eslint --ext .ts,.cjs,.js ./ && prettier . --write --check",
-    "test": "jest --coverage --passWithNoTests --maxWorkers=2"
+    "semantic-release": "semantic-release",
+    "test": "jest --coverage --passWithNoTests --maxWorkers=2",
+    "test:watch": "yarn test -- --watch"
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",

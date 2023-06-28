@@ -53,7 +53,8 @@
   "explorer.fileNesting.patterns": {
     ".eslintrc.js": ".eslintignore",
     ".yarnrc.yml": ".pnp.cjs, .pnp.loader.mjs",
-    ".prettierrc.js": ".prettierignore"
+    ".prettierrc.js": ".prettierignore",
+    ".npmrc": ".npmignore"
   },
   "explorer.fileNesting.enabled": true
 }
