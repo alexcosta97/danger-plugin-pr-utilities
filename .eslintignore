@@ -1,4 +1,5 @@
 node_modules
-converage
+coverage
 dist
 .yarn
+**/*.js
