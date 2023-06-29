@@ -9,7 +9,6 @@
   },
   "author": "Alexandre Costa <alex@alexcosta.dev> (https://alexcosta.dev/)",
   "license": "MIT",
-  "private": false,
   "files": [
     "dist/**/*"
   ],
