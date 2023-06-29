@@ -5,21 +5,29 @@
   "debug": true,
   "ci": true,
   "dryRun": false,
+  "preset": "conventionalcommits",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
       {
+        "preset": "conventionalcommits",
         "releaseRules": [
           {
-            "type": "chore",
+            "type": "build",
+            "scope": "deps",
             "release": "patch"
           },
           {
             "type": "docs",
+            "scope": "readme",
             "release": "patch"
           },
           {
             "type": "refactor",
+            "release": "patch"
+          },
+          {
+            "type": "perf",
             "release": "patch"
           },
           {
@@ -29,6 +37,14 @@
           {
             "type": "style",
             "release": "patch"
+          },
+          {
+            "type": "chore",
+            "release": false
+          },
+          {
+            "type": "test",
+            "release": false
           },
           {
             "type": "ci",
@@ -41,27 +57,85 @@
         ]
       }
     ],
-    "@semantic-release/release-notes-generator",
+    ["@semantic-release/release-notes-generator", {
+      "preset": "conventionalcommits",
+      "presetConfig": {
+        "types": [
+          {
+            "type": "feat",
+            "section": "Features"
+          },
+          {
+            "type": "fix",
+            "section": "Bug Fixes"
+          },
+          {
+            "type": "perf",
+            "section": "Performance Improvements",
+            "hidden": false
+          },
+          {
+            "type": "revert",
+            "section": "Reverts",
+            "hidden": false
+          },
+          {
+            "type": "docs",
+            "section": "Documentation",
+            "hidden": false
+          },
+          {
+            "type": "style",
+            "section": "Styles",
+            "hidden": false
+          },
+          {
+            "type": "chore",
+            "section": "Miscellaneous Chores",
+            "hidden": false
+          },
+          {
+            "type": "refactor",
+            "section": "Code Refactoring",
+            "hidden": false
+          },
+          {
+            "type": "test",
+            "section": "Tests",
+            "hidden": false
+          },
+          {
+            "type": "build",
+            "section": "Build System",
+            "hidden": false
+          },
+          {
+            "type": "ci",
+            "section": "Continuous Integration",
+            "hidden": false
+          }
+        ]
+      }
+    }],
     [
       "@semantic-release/changelog",
       {
         "changelogTitle": "Changelog"
       }
     ],
-    "@semantic-release/npm",
+    ["@semantic-release/npm", { "tarballDir": "pack" }],
     [
       "@semantic-release/github",
       {
-        "assets": [
-          "dist/**/*.{js,ts}", "CHANGELOG.md", "package.json", "LICENSE"
-        ],
+        "assets": "pack/*.tgz",
         "labels": "NPM Package"
       }
     ],
     [
       "@semantic-release/git",
       {
-        "assets": ["CHANGELOG.md", "package.json"]
+        "assets": ["CHANGELOG.md", "package.json"],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]
   ]
