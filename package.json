@@ -30,6 +30,7 @@
     "@typescript-eslint/parser": "^5.60.1",
     "@wopian/jest-reporter-github-annotations": "^0.0.2",
     "commitizen": "^4.3.0",
+    "conventional-changelog-conventionalcommits": "^6.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "danger": "^11.2.6",
     "eslint": "^8.43.0",
