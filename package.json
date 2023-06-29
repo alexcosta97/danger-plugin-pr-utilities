@@ -1,6 +1,6 @@
 {
   "name": "danger-plugin-pr-utilities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Danger plugin containing various utilities for PR validation",
   "main": "dist/index.js",
   "repository": {
@@ -49,6 +49,8 @@
   },
   "packageManager": "yarn@3.6.0",
   "renovate": {
-    "extends": ["github>alexcosta97/renovate-config"]
+    "extends": [
+      "github>alexcosta97/renovate-config"
+    ]
   }
 }
