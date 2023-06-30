@@ -37,3 +37,21 @@ jobs:
           FORCE_COLOR: false
       - name: Test application
         run: yarn test
+      - name: Install Snyk
+        run: npm install --location=global snyk
+      - name: Authenticate Snyk
+        run: snyk auth ${{ secrets.SNYK_TOKEN }}
+      - name: Snyk Open Source Scanning
+        run: snyk test --org=${{ secrets.SNYK_ORG }} --all-projects --sarif-file-output=snyk-oss.sarif
+        continue-on-error: true
+      - name: Upload results to GitHub Open Source Scanning
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: snyk-oss.sarif
+      - name: Snyk Code Scanning
+        run: snyk code test --org=${{ secrets.SNYK_ORG }} --sarif-file-output=snyk-code.sarif
+        continue-on-error: true
+      - name: Upload results to GitHub Code Scanning
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: snyk-code.sarif
