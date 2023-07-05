@@ -1,5 +1,17 @@
 Changelog
 
+## [1.0.6](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.5...v1.0.6) (2023-07-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** use `eslint-plugin-prettier` alpha for prettier v3 compatibility ([92f725c](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/92f725c71005345a7b014a28eb7b356a976fed2d))
+
+
+### Build System
+
+* **deps:** update devdependency prettier to ^3.0.0 ([5e79132](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/5e79132d7ffe09e325bbefc90b1f6192ff5a391e))
+
 ## [1.0.5](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.4...v1.0.5) (2023-07-04)
 
 
