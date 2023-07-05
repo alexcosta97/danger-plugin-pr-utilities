@@ -4,7 +4,6 @@ about: Describe a new feature to be added to the project
 title: 'Scope - Feature Title'
 labels: 'Type: Enhancement'
 assignees: ''
-
 ---
 
 ## Is your proposal related to a problem?

@@ -4,7 +4,6 @@ about: Suggest edits to improve the documentation
 title: 'Scope - Documentation Change'
 labels: 'Type: Documentation'
 assignees: ''
-
 ---
 
 ## Describe the change
