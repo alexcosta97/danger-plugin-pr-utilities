@@ -1,6 +1,6 @@
 {
   "name": "danger-plugin-pr-utilities",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A Danger plugin containing various utilities for PR validation",
   "main": "dist/index.js",
   "repository": {
