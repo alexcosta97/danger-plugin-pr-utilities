@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.17](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.16...v1.0.17) (2023-08-07)
+
+
+### Build System
+
+* **deps:** update devdependency danger to 11.2.8 ([c660053](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/c6600530a67af9f655685aaf44417479be0376e1))
+
 ## [1.0.16](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.15...v1.0.16) (2023-08-02)
 
 
