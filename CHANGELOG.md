@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.22](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.21...v1.0.22) (2023-08-25)
+
+
+### Build System
+
+* **deps:** update test packages ([1e22f36](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/1e22f3606c39b4ea5bd59f3ea7b6ecb779be2e13))
+
 ## [1.0.21](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.20...v1.0.21) (2023-08-25)
 
 
