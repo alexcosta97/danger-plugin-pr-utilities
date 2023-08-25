@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.27](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.26...v1.0.27) (2023-08-25)
+
+
+### Build System
+
+* **deps:** update devdependency eslint-config-prettier to 9.0.0 ([ae94975](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/ae9497592da922150d13580518efeedd31458226))
+
 ## [1.0.26](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.25...v1.0.26) (2023-08-25)
 
 
