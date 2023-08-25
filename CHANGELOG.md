@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.21](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.20...v1.0.21) (2023-08-25)
+
+
+### Build System
+
+* **deps:** update yarn to 3.6.3 ([2b93331](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/2b93331f2d7a82cc58e5ce7dc8bba9ada0127005))
+
 ## [1.0.20](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.19...v1.0.20) (2023-08-25)
 
 
