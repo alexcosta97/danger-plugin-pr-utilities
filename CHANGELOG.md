@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.28](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.27...v1.0.28) (2023-08-30)
+
+
+### Build System
+
+* **deps:** update linters ([27c2c24](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/27c2c241b92506e77ad688bfc3ae3b5c6f0068ab))
+
 ## [1.0.27](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.26...v1.0.27) (2023-08-25)
 
 
