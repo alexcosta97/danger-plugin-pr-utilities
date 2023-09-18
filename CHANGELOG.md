@@ -1,5 +1,26 @@
 Changelog
 
+## [1.0.31](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.30...v1.0.31) (2023-09-18)
+
+
+### Build System
+
+* **deps:** update actions/checkout action to v4 ([d8ef31e](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/d8ef31e233ebe387536acbcfb832885588fb5971))
+* **deps:** update devdependency @types/jest to 29.5.5 ([a562c99](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/a562c99cad9b669ddca493e182e9ba7402b2c6e1))
+* **deps:** update devdependency @types/node to 20.5.9 ([2d4b569](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/2d4b569cab14a6bf026b35c952018f953a5c86d4))
+* **deps:** update devdependency @types/node to 20.6.0 ([05505b4](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/05505b4f628444744465f66fceaf3db61dc9206b))
+* **deps:** update devdependency @types/node to 20.6.1 ([c31bf19](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/c31bf19721807191404586c9ceef531d57ffb418))
+* **deps:** update devdependency @types/node to 20.6.2 ([63bca52](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/63bca52a540dbfc557fe3537412e735896d3b3ac))
+* **deps:** update devdependency conventional-changelog-conventionalcommits to 7.0.1 ([a66f836](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/a66f83645fc0efd6f4e6ae63ec150b1cee6da3cb))
+* **deps:** update devdependency conventional-changelog-conventionalcommits to 7.0.2 ([8f4759f](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/8f4759fe4e743a9ca5d314985c767093d4ff99fa))
+* **deps:** update devdependency eslint to 8.49.0 ([bff1458](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/bff14584e9cde42d338296486b2df7959c6e2851))
+* **deps:** update devdependency eslint-plugin-jest to 27.4.0 ([3c45c0f](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/3c45c0f623425344d4e49dab8df69c91d792feea))
+* **deps:** update devdependency jest to 29.7.0 ([ea0368b](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/ea0368b934b7ffb6cd988eed70fd2314607765cc))
+* **deps:** update devdependency semantic-release to 21.1.2 ([d183821](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/d18382153a962d23e4b6a3efd317dc0f85152103))
+* **deps:** update devdependency semantic-release to 22.0.0 ([89860b7](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/89860b74865fac391a668e13d0a9ae036c666063))
+* **deps:** update typescript-eslint monorepo to 6.6.0 ([b3e3feb](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/b3e3febfa53d90ab7d9c4f09fd83c9f1180e348b))
+* **deps:** update typescript-eslint monorepo to 6.7.0 ([52a24a7](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/52a24a724abcfb95d4a95ae421ccf15fcf8a0beb))
+
 ## [1.0.30](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.29...v1.0.30) (2023-08-30)
 
 
