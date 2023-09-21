@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.34](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.33...v1.0.34) (2023-09-21)
+
+
+### Build System
+
+* **deps:** update devdependency semantic-release to 22.0.1 ([ba9c49c](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/ba9c49c66e0bbe762aec72713c1101c072b10fa0))
+
 ## [1.0.33](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.32...v1.0.33) (2023-09-20)
 
 
