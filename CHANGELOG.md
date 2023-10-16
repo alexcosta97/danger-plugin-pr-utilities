@@ -1,5 +1,28 @@
 Changelog
 
+## [1.0.35](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.34...v1.0.35) (2023-10-16)
+
+
+### Build System
+
+* **deps:** update actions/checkout digest to 8ade135 ([f961bc8](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/f961bc8b54634d47c9fd94c195412f642d3a1f40))
+* **deps:** update devdependency @types/node to 20.6.5 ([54a1af2](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/54a1af2d18db04cf41de2ac581667c8b9f6880d5))
+* **deps:** update devdependency @types/node to 20.7.0 ([e4c6da5](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/e4c6da581330395ebb0e7d80ad9521bb963e0f72))
+* **deps:** update devdependency @types/node to 20.8.2 ([3c4479a](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/3c4479aa8f4c9c585a9b756991c10ff393d10568))
+* **deps:** update devdependency @types/node to 20.8.3 ([74565f6](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/74565f6fb6238b35980b5c295af263189f92ec41))
+* **deps:** update devdependency @types/node to 20.8.4 ([5566e6a](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/5566e6a95bde16f472ad7d3bc6f7575adaa1fe4c))
+* **deps:** update devdependency danger to 11.3.0 ([a91200e](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/a91200e41e08035d20df5fcadbf2be782b8340ad))
+* **deps:** update devdependency eslint to 8.50.0 ([0d12f3a](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/0d12f3a99ad424805e43a8cb2db7a6b954fc090a))
+* **deps:** update devdependency eslint-plugin-prettier to 5.0.1 ([3b2ebf0](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/3b2ebf0329813c27f3831d7c9de104a1814dd613))
+* **deps:** update devdependency jest-extended to 4.0.2 ([a506e96](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/a506e968bd62dc45e9d3683c33b0b523e9714c00))
+* **deps:** update devdependency semantic-release to 22.0.5 ([2a1501c](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/2a1501c01421735483d642114be0a02f0970c320))
+* **deps:** update linters ([443309e](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/443309e24f930819fddc803ab1d5d2830ceade43))
+* **deps:** update typescript-eslint monorepo to 6.7.3 ([69dcb4e](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/69dcb4edc1de84b1fae4c606bb0735185317daf5))
+* **deps:** update typescript-eslint monorepo to 6.7.4 ([c4fae39](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/c4fae39f68989ba21ce8f56537d3e25a7c184167))
+* **deps:** update typescript-eslint monorepo to 6.7.5 ([e464d17](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/e464d1776a0be5e3b69708e1490c58fe94a8b7d0))
+* **deps:** update yarn to 3.6.4 ([99b640d](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/99b640d0d379d5d73e799c98a5b5649e24c17551))
+* enable `esModuleInterop` ([e337986](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/e337986b925ae9e573d2871d2c6e6f55857b530d))
+
 ## [1.0.34](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.33...v1.0.34) (2023-09-21)
 
 
