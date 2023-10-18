@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.38](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.37...v1.0.38) (2023-10-18)
+
+
+### Build System
+
+* **deps:** update devdependency @types/jest to 29.5.6 ([2c25e20](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/2c25e20c72cefc04f636ef3eb74db2b7d1008eb7))
+
 ## [1.0.37](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.36...v1.0.37) (2023-10-17)
 
 
