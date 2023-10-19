@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.40](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.39...v1.0.40) (2023-10-19)
+
+
+### Build System
+
+* **deps:** update actions/checkout digest to b4ffde6 ([08e8313](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/08e8313eb5749bad6436dc141da8d15a16947053))
+
 ## [1.0.39](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.38...v1.0.39) (2023-10-18)
 
 
