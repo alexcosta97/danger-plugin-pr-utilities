@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.42](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.41...v1.0.42) (2023-10-24)
+
+
+### Build System
+
+* **deps:** update actions/setup-node action to v4 ([fc2fe91](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/fc2fe91b234af647f5da3b28e23c6dcb9aadbd12))
+
 ## [1.0.41](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.40...v1.0.41) (2023-10-24)
 
 
