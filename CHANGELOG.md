@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.46](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.45...v1.0.46) (2023-10-26)
+
+
+### Build System
+
+* **deps:** update devdependency @types/node to 20.8.9 ([c7945a9](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/c7945a9c5afd5ed5319e361d6446a67d47690c8f))
+
 ## [1.0.45](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.44...v1.0.45) (2023-10-24)
 
 
