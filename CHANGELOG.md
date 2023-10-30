@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.47](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.46...v1.0.47) (2023-10-30)
+
+
+### Build System
+
+* **deps:** update devdependency eslint-plugin-jest to 27.6.0 ([9791311](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/9791311c24f99d1f08492501c3672d886df832e2))
+
 ## [1.0.46](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.45...v1.0.46) (2023-10-26)
 
 
