@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.49](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.48...v1.0.49) (2023-10-30)
+
+
+### Build System
+
+* **deps:** update devdependency eslint-plugin-unicorn to 49.0.0 ([885c786](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/885c786f24abfb6f717141713cf3b95b4e75c05f))
+
 ## [1.0.48](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.47...v1.0.48) (2023-10-30)
 
 
