@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.53](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.52...v1.0.53) (2023-11-01)
+
+
+### Build System
+
+* **deps:** update typescript-eslint monorepo to 6.9.1 ([080be48](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/080be480fc33270b982f80f54982a5dd8c231ef8))
+
 ## [1.0.52](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.51...v1.0.52) (2023-10-31)
 
 
