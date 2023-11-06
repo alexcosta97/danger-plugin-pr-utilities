@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.55](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.54...v1.0.55) (2023-11-06)
+
+
+### Build System
+
+* **deps:** update devdependency eslint to 8.53.0 ([a825770](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/a825770d53b56c3e25c513d323a09bd85b6b0979))
+
 ## [1.0.54](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.53...v1.0.54) (2023-11-06)
 
 
