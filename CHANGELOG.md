@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.60](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.59...v1.0.60) (2023-11-13)
+
+
+### Build System
+
+* **deps:** update devdependency prettier to 3.1.0 ([4c9d0ac](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/4c9d0ac48956151d01455068e1e5104d8198c1ea))
+
 ## [1.0.59](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.58...v1.0.59) (2023-11-13)
 
 
