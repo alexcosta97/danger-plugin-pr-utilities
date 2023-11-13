@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.59](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.58...v1.0.59) (2023-11-13)
+
+
+### Build System
+
+* **deps:** lock file maintenance ([c6a37ca](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/c6a37ca399b48f1a9f2efe09603390e348588b1f))
+
 ## [1.0.58](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.57...v1.0.58) (2023-11-08)
 
 
