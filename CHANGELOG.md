@@ -1,5 +1,18 @@
 Changelog
 
+## [1.0.64](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.63...v1.0.64) (2024-04-02)
+
+
+### Miscellaneous Chores
+
+* enable corepack and fix cache ([10eb3b3](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/10eb3b3ddfef45e3351f934db5c72afa56a7ce77))
+* use correct vs code value ([aeab671](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/aeab671e6a4fd0d24a1c6ba37c3a8b2301a25b38))
+
+
+### Build System
+
+* **deps:** update devdependency semantic-release to 22.0.8 ([b67b0b0](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/b67b0b0871cf7b77d2d684d3e8140bde92d24775))
+
 ## [1.0.63](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.62...v1.0.63) (2023-11-17)
 
 
