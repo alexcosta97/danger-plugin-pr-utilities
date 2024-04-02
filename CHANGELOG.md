@@ -1,5 +1,13 @@
 Changelog
 
+## [1.0.73](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.72...v1.0.73) (2024-04-02)
+
+
+### Build System
+
+* **deps:** update devdependency @types/node to 20.12.2 ([312ea57](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/312ea57d9363398cf9f1a96b6f796dbc3b6b719a))
+* **deps:** update devdependency semantic-release to 23.0.6 ([be77ebf](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/be77ebfde988600d9287b70c3781f742c3f641f2))
+
 ## [1.0.72](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.71...v1.0.72) (2024-04-02)
 
 
