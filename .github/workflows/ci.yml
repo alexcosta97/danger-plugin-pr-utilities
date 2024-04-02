@@ -11,23 +11,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-      - name: Use Node.js ${{ env.NODE_VERSION }}
+      - name: Use node ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
-      - name: Restore yarn cache
-        uses: actions/cache@v3
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      - name: Enable Corepack
+        run: corepack enable
+      - name: Use node ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
         with:
-          path: |
-            ${{ steps.yarn-cache-dir-path.outputs.dir }}
-            ${{ github.workspace }}/.yarn/unplugged
-          key: yarn-${{ hashFiles('**/yarn.lock', '.yarnrc.yml') }}
-          restore-keys: |
-            yarn-
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "yarn"
       - name: Install Dependencies
         run: yarn install --immutable --inline-builds
         timeout-minutes: 5
