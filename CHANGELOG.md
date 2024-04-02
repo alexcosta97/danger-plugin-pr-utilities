@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.71](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.70...v1.0.71) (2024-04-02)
+
+
+### Build System
+
+* **deps:** update devdependency typescript to 5.4.3 ([7b5a47f](https://github.com/alexcosta97/danger-plugin-pr-utilities/commit/7b5a47ff404973179e05c50d601ec245bfd54757))
+
 ## [1.0.70](https://github.com/alexcosta97/danger-plugin-pr-utilities/compare/v1.0.69...v1.0.70) (2024-04-02)
 
 
