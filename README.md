@@ -1,6 +1,6 @@
 # danger-plugin-pr-utilities
 
-[![Build Status](https://github.com/alexcosta97/danger-plugin-pr-utilities/workflows/Deployment/badge.svg)](https://github.com/alexcosta97/danger-plugin-pr-utilities/actions?query=workflow%3ADeployment)
+[![Deployment](https://github.com/alexcosta97/danger-plugin-pr-utilities/actions/workflows/cd.yml/badge.svg)](https://github.com/alexcosta97/danger-plugin-pr-utilities/actions/workflows/cd.yml)
 [![CI Status](https://github.com/alexcosta97/danger-plugin-pr-utilities/workflows/CI/badge.svg)](https://github.com/alexcosta97/danger-plugin-pr-utilities/actions?query=workflow%3ACI)
 [![npm latest version](https://img.shields.io/npm/v/danger-plugin-pr-utilities/latest.svg)](https://www.npmjs.com/package/danger-plugin-pr-utilities)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
