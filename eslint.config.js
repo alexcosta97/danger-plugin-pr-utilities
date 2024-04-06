@@ -1,10 +1,10 @@
 /* eslint-env node */
 const eslint = require('@eslint/js');
 const tseslint = require('typescript-eslint');
-const unicornPlugin = require('eslint-plugin-unicorn');
+const unicorn = require('eslint-plugin-unicorn');
 const simpleImportSort = require('eslint-plugin-simple-import-sort');
 const prettier = require('eslint-plugin-prettier');
-const jestPlugin = require('eslint-plugin-jest');
+const jest = require('eslint-plugin-jest');
 
 module.exports = [
   {
@@ -12,7 +12,7 @@ module.exports = [
     plugins: {
       '@typescript-eslint': tseslint.plugin,
       'simple-import-sort': simpleImportSort,
-      unicorn: unicornPlugin,
+      unicorn,
       prettier
     },
     languageOptions: {
@@ -24,7 +24,7 @@ module.exports = [
     rules: {
       ...eslint.configs.recommended.rules,
       ...tseslint.configs.recommended.rules,
-      ...unicornPlugin.configs.recommended.rules,
+      ...unicorn.configs.recommended.rules,
       ...prettier.configs.recommended.rules,
       'prettier/prettier': ['error', {}, { usePrettierrc: true }],
       'no-var': 'error',
@@ -51,9 +51,9 @@ module.exports = [
   },
   {
     files: ['src/**/*.spec.ts'],
-    ...jestPlugin.configs['flat/recommended'],
+    ...jest.configs['flat/recommended'],
     rules: {
-      ...jestPlugin.configs['flat/recommended'].rules,
+      ...jest.configs['flat/recommended'].rules,
       'jest/require-hook': 0,
       'jest/max-expects': 0,
       '@typescript-eslint/unbound-method': 'off'
