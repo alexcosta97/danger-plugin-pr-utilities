@@ -7,11 +7,8 @@ export declare function warn(message: string): void;
 export declare function fail(message: string): void;
 export declare function markdown(message: string): void;
 
-/**
- * My personal plugins
- */
-export default function alexandrecosta() {
-  // Replace this with the code from your Dangerfile
+
+export default function getPRTitle() {
   const title = danger.github.pr.title;
   message(`PR Title: ${title}`);
 }
