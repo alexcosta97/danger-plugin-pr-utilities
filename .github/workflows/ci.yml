@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: "yarn"
+          cache: 'yarn'
       - name: Install Dependencies
         run: yarn install --immutable --inline-builds
         timeout-minutes: 5
