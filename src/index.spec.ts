@@ -1,8 +1,8 @@
-import alexandrecosta from './index';
+import getPRTitle from './index';
 
 declare const global: any;
 
-describe('alexandrecosta()', () => {
+describe('getPRTitle()', () => {
   beforeEach(() => {
     global.warn = jest.fn();
     global.message = jest.fn();
@@ -22,7 +22,7 @@ describe('alexandrecosta()', () => {
       github: { pr: { title: 'My Test Title' } }
     };
 
-    alexandrecosta();
+    getPRTitle();
 
     expect(global.message).toHaveBeenCalledWith('PR Title: My Test Title');
   });
