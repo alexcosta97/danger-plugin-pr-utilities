@@ -1,6 +1,5 @@
 import getPRTitle from './index';
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 declare const global: any;
 
 describe('getPRTitle()', () => {
