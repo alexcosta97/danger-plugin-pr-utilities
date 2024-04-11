@@ -1,4 +1,4 @@
-import { PackageManager, checkLockfileUpdate, getPRTitle } from './index';
+import { PackageManager, checkLockfileUpdate, getPRTitle, checkPRFileSize } from './index';
 
 declare const global: any;
 
@@ -71,6 +71,23 @@ describe('index', () => {
 
       expect(global.warn).toHaveBeenCalledWith(
         'You might have forgotten to run your package installer'
+      );
+    });
+  });
+
+  describe('checkPRFileSize()', () => {
+    it('Sends a warning when the PR file size goes over the specified limit', () => {
+      global.danger = {
+        git: {
+          created_files: ['one', 'two', 'three', 'four'],
+          modified_files: []
+        }
+      };
+
+      checkPRFileSize(3);
+
+      expect(global.warn).toHaveBeenCalledWith(
+        'This PR has more changes than recommended. Please check that all changes are within scope.'
       );
     });
   });

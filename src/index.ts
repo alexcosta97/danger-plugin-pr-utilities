@@ -45,7 +45,20 @@ export function checkLockfileUpdate(packageManager: PackageManager) {
   }
 }
 
+export function checkPRFileSize(size: number) {
+  const created_files = danger.git.created_files;
+  const modified_files = danger.git.modified_files;
+  const totalFilesChanged = created_files.length + modified_files.length;
+
+  if (totalFilesChanged > size) {
+    warn(
+      'This PR has more changes than recommended. Please check that all changes are within scope.'
+    );
+  }
+}
+
 export default {
   getPRTitle,
-  checkLockfileUpdate
+  checkLockfileUpdate,
+  checkPRFileSize
 };
