@@ -44,5 +44,34 @@ describe('index', () => {
 
       expect(global.warn).toHaveBeenCalledWith('You might have forgotten to run `npm install`');
     });
+
+    it('Sends a warning when Yarn lockfile is not updated', () => {
+      global.danger = {
+        git: {
+          fileMatch: jest
+            .fn()
+            .mockReturnValueOnce({ modified: true })
+            .mockReturnValueOnce({ modified: false })
+        }
+      };
+
+      checkLockfileUpdate(PackageManager.YARN);
+
+      expect(global.warn).toHaveBeenCalledWith('You might have forgotten to run `yarn`');
+    });
+
+    it('Sends a warning when PNPM lockfile is not updated', () => {
+      global.danger = {
+        git: {
+          fileMatch: jest.fn().mockReturnValueOnce({ modified: true })
+        }
+      };
+
+      checkLockfileUpdate(PackageManager.PNPM);
+
+      expect(global.warn).toHaveBeenCalledWith(
+        'You might have forgotten to run your package installer'
+      );
+    });
   });
 });
