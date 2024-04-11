@@ -1,4 +1,10 @@
-import { PackageManager, checkLockfileUpdate, getPRTitle, checkPRFileSize } from './index';
+import {
+  PackageManager,
+  checkLockfileUpdate,
+  getPRTitle,
+  checkPRFileSize,
+  checkPRLineSize
+} from './index';
 
 declare const global: any;
 
@@ -85,6 +91,20 @@ describe('index', () => {
       };
 
       checkPRFileSize(3);
+
+      expect(global.warn).toHaveBeenCalledWith(
+        'This PR has more changes than recommended. Please check that all changes are within scope.'
+      );
+    });
+  });
+
+  describe('checkPRLinesSize()', () => {
+    it('Sends a warning when the number of lines changed in PR goes over specified limit', async () => {
+      global.danger = {
+        git: { linesOfCode: jest.fn().mockResolvedValueOnce(100) }
+      };
+
+      await checkPRLineSize(50);
 
       expect(global.warn).toHaveBeenCalledWith(
         'This PR has more changes than recommended. Please check that all changes are within scope.'

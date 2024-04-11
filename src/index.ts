@@ -57,8 +57,19 @@ export function checkPRFileSize(size: number) {
   }
 }
 
+export async function checkPRLineSize(size: number) {
+  const linesOfCode = await danger.git.linesOfCode();
+
+  if (linesOfCode !== null && linesOfCode > size) {
+    warn(
+      'This PR has more changes than recommended. Please check that all changes are within scope.'
+    );
+  }
+}
+
 export default {
   getPRTitle,
   checkLockfileUpdate,
-  checkPRFileSize
+  checkPRFileSize,
+  checkPRLineSize
 };
