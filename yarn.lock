@@ -3162,7 +3162,7 @@ __metadata:
     commitizen: "npm:4.3.0"
     conventional-changelog-conventionalcommits: "npm:7.0.2"
     cz-conventional-changelog: "npm:3.3.0"
-    danger: "npm:12.1.0"
+    danger: "npm:12.2.0"
     eslint: "npm:9.2.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-jest: "npm:28.5.0"
@@ -3179,9 +3179,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"danger@npm:12.1.0":
-  version: 12.1.0
-  resolution: "danger@npm:12.1.0"
+"danger@npm:12.2.0":
+  version: 12.2.0
+  resolution: "danger@npm:12.2.0"
   dependencies:
     "@gitbeaker/rest": "npm:^38.0.0"
     "@octokit/rest": "npm:^18.12.0"
@@ -3195,7 +3195,7 @@ __metadata:
     http-proxy-agent: "npm:^5.0.0"
     https-proxy-agent: "npm:^5.0.1"
     hyperlinker: "npm:^1.0.0"
-    json5: "npm:^2.1.0"
+    json5: "npm:^2.2.3"
     jsonpointer: "npm:^5.0.0"
     jsonwebtoken: "npm:^9.0.0"
     lodash.find: "npm:^4.6.0"
@@ -3230,7 +3230,7 @@ __metadata:
     danger-process: distribution/commands/danger-process.js
     danger-reset-status: distribution/commands/danger-reset-status.js
     danger-runner: distribution/commands/danger-runner.js
-  checksum: 10c0/e3aba40f6eb3e07ec924c31185c887e66b71f240f76adcf0e33bc0c101eacb4cb0c6d61b4c4ca5e27fb892580f6fe0521f60cca3fa7d34b0e0919d2badec93c2
+  checksum: 10c0/43894a785360b5a54c288c8dd85bf67cd2ea15b9a6da3ff37266f285ebe691ae8ab129f4ade922322b8cd9f833da03cb1391cabb68cb293637823ee37f28f56b
   languageName: node
   linkType: hard
 
@@ -5684,7 +5684,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.0, json5@npm:^2.2.3":
+"json5@npm:^2.2.3":
   version: 2.2.3
   resolution: "json5@npm:2.2.3"
   bin:
