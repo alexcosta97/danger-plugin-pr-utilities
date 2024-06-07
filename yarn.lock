@@ -3043,7 +3043,7 @@ __metadata:
     commitizen: "npm:4.3.0"
     conventional-changelog-conventionalcommits: "npm:8.0.0"
     cz-conventional-changelog: "npm:3.3.0"
-    danger: "npm:12.3.0"
+    danger: "npm:12.3.1"
     eslint: "npm:9.3.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-jest: "npm:28.5.0"
@@ -3060,9 +3060,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"danger@npm:12.3.0":
-  version: 12.3.0
-  resolution: "danger@npm:12.3.0"
+"danger@npm:12.3.1":
+  version: 12.3.1
+  resolution: "danger@npm:12.3.1"
   dependencies:
     "@gitbeaker/rest": "npm:^38.0.0"
     "@octokit/rest": "npm:^18.12.0"
@@ -3111,7 +3111,7 @@ __metadata:
     danger-process: distribution/commands/danger-process.js
     danger-reset-status: distribution/commands/danger-reset-status.js
     danger-runner: distribution/commands/danger-runner.js
-  checksum: 10c0/fb403c7b5eb1b2238f50e8875ffb4b58f2100306090ee9d532409ad189413ac425c7d3c618b5c65f64cd1aaf6c4b69a71e3f6abd2f8b34f2bc9641a0a283b720
+  checksum: 10c0/7713a3c2129d1889a41ea44d5fbe3974bcb99aad5e5837249127dae12717ac29071db64feb1e76649e01c7aba65278c7160d50f69af49f38385ceed155e32b9a
   languageName: node
   linkType: hard
 
