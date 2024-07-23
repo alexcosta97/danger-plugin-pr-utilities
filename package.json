@@ -25,7 +25,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.10",
+    "@types/node": "20.14.12",
     "@wopian/jest-reporter-github-annotations": "0.0.2",
     "commitizen": "4.3.0",
     "conventional-changelog-conventionalcommits": "8.0.0",
