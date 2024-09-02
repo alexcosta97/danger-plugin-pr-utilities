@@ -43,7 +43,7 @@
     "semantic-release": "24.1.0",
     "ts-jest": "29.2.5",
     "typescript": "5.5.4",
-    "typescript-eslint": "^7.5.0"
+    "typescript-eslint": "^8.0.0"
   },
   "packageManager": "yarn@4.4.1",
   "renovate": {
