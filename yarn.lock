@@ -1813,21 +1813,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 22.10.1
-  resolution: "@types/node@npm:22.10.1"
+"@types/node@npm:*, @types/node@npm:22.10.2":
+  version: 22.10.2
+  resolution: "@types/node@npm:22.10.2"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/0fbb6d29fa35d807f0223a4db709c598ac08d66820240a2cd6a8a69b8f0bc921d65b339d850a666b43b4e779f967e6ed6cf6f0fca3575e08241e6b900364c234
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:22.9.0":
-  version: 22.9.0
-  resolution: "@types/node@npm:22.9.0"
-  dependencies:
-    undici-types: "npm:~6.19.8"
-  checksum: 10c0/3f46cbe0a49bab4ba30494025e4c8a6e699b98ac922857aa1f0209ce11a1313ee46e6808b8f13fe5b8b960a9d7796b77c8d542ad4e9810e85ef897d5593b5d51
+  checksum: 10c0/2c7b71a040f1ef5320938eca8ebc946e6905caa9bbf3d5665d9b3774a8d15ea9fab1582b849a6d28c7fc80756a62c5666bc66b69f42f4d5dafd1ccb193cdb4ac
   languageName: node
   linkType: hard
 
@@ -3074,7 +3065,7 @@ __metadata:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
     "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:22.9.0"
+    "@types/node": "npm:22.10.2"
     "@wopian/jest-reporter-github-annotations": "npm:0.0.2"
     commitizen: "npm:4.3.1"
     conventional-changelog-conventionalcommits: "npm:8.0.0"
@@ -8705,13 +8696,6 @@ __metadata:
   bin:
     uglifyjs: bin/uglifyjs
   checksum: 10c0/83b0a90eca35f778e07cad9622b80c448b6aad457c9ff8e568afed978212b42930a95f9e1be943a1ffa4258a3340fbb899f41461131c05bb1d0a9c303aed8479
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~6.19.8":
-  version: 6.19.8
-  resolution: "undici-types@npm:6.19.8"
-  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
   languageName: node
   linkType: hard
 
